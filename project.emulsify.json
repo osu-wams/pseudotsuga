@@ -1,0 +1,11 @@
+{
+  "project": {
+    "platform": "drupal",
+    "name": "pseudotsuga",
+    "machineName": "pseudotsuga",
+    "singleDirectoryComponents": true
+  },
+  "starter": {
+    "repository": "https://github.com/emulsify-ds/emulsify-drupal.git"
+  }
+}
