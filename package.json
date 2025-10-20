@@ -1,6 +1,6 @@
 {
   "name": "pseudotsuga",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Storybook development + Webpack Build",
   "keywords": [
     "component library",
@@ -41,7 +41,7 @@
     "webpack": "webpack --watch --config node_modules/@emulsify/core/config/webpack/webpack.dev.js"
   },
   "dependencies": {
-    "@emulsify/core": "^3.3.1",
+    "@emulsify/core": "^3.3.2",
     "csv-parse": "^6.1.0"
   }
 }
