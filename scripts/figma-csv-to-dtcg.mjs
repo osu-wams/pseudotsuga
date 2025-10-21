@@ -4,8 +4,8 @@ import path from 'node:path';
 import { parse } from 'csv-parse/sync';
 
 // INPUT/OUTPUT
-const inCsv = process.argv[2] || 'tokens/Variables.csv';
-const outDir = 'tokens';
+const inCsv = process.argv[2] || '../tokens/Variables.csv';
+const outDir = '../tokens';
 
 // Helpers
 const kebab = s => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g,'');
