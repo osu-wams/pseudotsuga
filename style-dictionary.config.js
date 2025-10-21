@@ -1,16 +1,6 @@
 export default {
   source: ['tokens/*.tokens.json'],
   platforms: {
-    css: {
-      transformGroup: 'css',
-      files: [
-        {
-          destination: 'css/tokens-mode-1.css',
-          format: 'css/variables',
-          options: { selector: ':root[data-theme="mode-1"]' }
-        }
-      ]
-    },
     cssLight: {
       transformGroup: 'css',
       files: [{
