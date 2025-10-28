@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@emulsify/core": "^3.3.2",
+    "@tokens-studio/sdk": "^3.0.0",
     "csv-parse": "^6.1.0"
   }
 }
